@@ -19,3 +19,16 @@ h1 {
 h2{
     color: blue;
 }
+.basico {
+    color: green;
+}
+.intermediario {
+    color: blue;
+}
+.avancado {
+    color: red;
+}
+.destaque {
+    background-color: black;
+    color: yellow;
+}
