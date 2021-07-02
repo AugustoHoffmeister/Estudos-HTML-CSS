@@ -1,0 +1,10 @@
+:root
+{
+    --cor0:white;
+    --cor1:black;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
