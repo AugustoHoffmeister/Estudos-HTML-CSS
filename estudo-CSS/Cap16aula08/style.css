@@ -44,7 +44,16 @@ nav
 }
 main
 {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
     background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: justify;
 }
 main h1 
 {
@@ -59,6 +68,12 @@ main h2
 img, iframe
 {
     width: 100%;
+}
+img.pequena
+{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 footer
 {
