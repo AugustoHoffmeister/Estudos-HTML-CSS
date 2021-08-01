@@ -88,17 +88,38 @@ main
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    text-align: justify;
 }
 main h1 
 {
     color: var(--cor5);
     font-family: var(--fonte-android);
+    text-align: center;
 }
 main h2
 {
     font-family: var(--fonte-android);
-    text-align: center;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, var(--cor1),transparent);
+    color: var(--cor4);
+}
+main p
+{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5em;
+}
+main a
+{
+    font-weight: bold;
+    color:var(--cor5);
+    background-color: yellow;
+}
+main strong
+{
+    font-weight: bold;
+    color:var(--cor5);
+    background-color: var(--cor2);
 }
 img, iframe
 {
@@ -106,7 +127,7 @@ img, iframe
 }
 img.pequena
 {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
